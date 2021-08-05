@@ -266,11 +266,11 @@ public static main(String[] args){
 
 示例：网络图片
 ```
-![头像图片](https://sf3-ttcdn-tos.pstatp.com/img/labis/d41f97e477d54ffa5060cd1abd9857bb~tplv-tt-cs0:360:360.webp "这是头像")
+![头像图片](https://img-blog.csdnimg.cn/20191209162719837.png "这是头像")
 ```
 效果：
 
-![头像图片](https://sf3-ttcdn-tos.pstatp.com/img/labis/d41f97e477d54ffa5060cd1abd9857bb~tplv-tt-cs0:360:360.webp "这是头像")
+![头像图片](https://img-blog.csdnimg.cn/20191209162719837.png "这是头像")
 
 示例：本地图片
 ```
@@ -280,6 +280,10 @@ public static main(String[] args){
 效果：
 ![头像图片](./Markdown常用语法images/0cd63.jpg "这是头像图片")
 [![头像图片](./Markdown常用语法images/0cd63.jpg "这是头像图片")](www.baidu.com)
+
+![sijia](E:\python3.8.3\sphinx+reStructuredText制作文档 - LinuxPanda - 博客园_files\sijia.bmp)
+
+
 
 # Markdown 表格（拓展语法）
 
