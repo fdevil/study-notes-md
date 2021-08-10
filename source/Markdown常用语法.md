@@ -10,7 +10,6 @@
 
 在标题前面添加井号 #。# 的数量代表了标题的级别。
 注意："#" 和 "标题" 之间为保证兼容性要留空格。
-
 ```
 # 一级标题
 ## 二级标题
@@ -38,7 +37,6 @@
 ------
 
 示例：
-
 ```
 *斜体*
 **粗体**
@@ -48,7 +46,6 @@
 上标m^2^
 下标H~2~O
 ```
-
 效果：
 *斜体*
 **粗体**
@@ -63,13 +60,11 @@
 ------
 
 示例：
-
 ```
 >一级引用
 >>二级引用
 >>>三级引用
 ```
-
 效果：
 
 > 一级引用
@@ -157,7 +152,6 @@
 要将单词或短语表示为代码，请将其包裹在反引号 ( ` ) 中。
 
 这个一个\``单行代码`\`示例。
-
 ```
 Use `code` in your Markdown file.
 ```
@@ -252,38 +246,24 @@ public static main(String[] args){
 * 插入图片语法代码：`![图片alt](图片链接 "图片title")`
 * 链接图片语法代码: `[插入图片语法代码](超链接地址)`
 
-调整图片位置、大小
-![描述](https://img-blog.csdnimg.cn/20191209162719837.png)
-居中：
-![描述](https://img-blog.csdnimg.cn/20191209162719837.png#pic_center)
-居中 + 调整大小：
-注意"="符号前面的空格
-![描述](https://img-blog.csdnimg.cn/20191209162719837.png#pic_center =400x400)
-
-仅调整大小：
-![描述](https://img-blog.csdnimg.cn/20191209162719837.png =200x200)
-
-
 示例：网络图片
 ```
-![头像图片](https://img-blog.csdnimg.cn/20191209162719837.png "这是头像")
+![头像图片](https://sf3-ttcdn-tos.pstatp.com/img/labis/d41f97e477d54ffa5060cd1abd9857bb~tplv-tt-cs0:360:360.webp "这是头像")
 ```
 效果：
-
-![头像图片](https://img-blog.csdnimg.cn/20191209162719837.png "这是头像")
+![头像图片](https://sf3-ttcdn-tos.pstatp.com/img/labis/d41f97e477d54ffa5060cd1abd9857bb~tplv-tt-cs0:360:360.webp "这是头像")
 
 示例：本地图片
 ```
-![头像图片](./Markdown常用语法images/0cd63.jpg "这是头像图片")
+# 不带超链接
+![头像图片](.\Markdown常用语法.assets\0cd63.jpg)
+# 带超链接
+[![头像图片](.\Markdown常用语法.assets\0cd63.jpg "这是头像图片")](www.baidu.com)
 ```
-
-效果：
-![头像图片](./Markdown常用语法images/0cd63.jpg "这是头像图片")
-[![头像图片](./Markdown常用语法images/0cd63.jpg "这是头像图片")](www.baidu.com)
-
-![sijia](E:\python3.8.3\sphinx+reStructuredText制作文档 - LinuxPanda - 博客园_files\sijia.bmp)
-
-
+效果：不带超链接
+![头像图片](.\Markdown常用语法.assets\0cd63.jpg)
+带超链接
+[![头像图片](.\Markdown常用语法.assets\0cd63.jpg "这是头像图片")](www.baidu.com)
 
 # Markdown 表格（拓展语法）
 
@@ -348,12 +328,8 @@ Second Term
 : This is one definition of the second term.
 : This is another definition of the second term.
 
+# 参考资料
 
-
-
-
-
-参考：
 1. <https://markdown.com.cn/basic-syntax/>
 1. <https://markdown.com.cn/extended-syntax/>
 1. <https://blog.csdn.net/witnessai1/article/details/52551362>
